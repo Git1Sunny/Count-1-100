@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+var number : Int = 0
 
+for count1 in 1...100
+{
+    number += count1
+}
+
+print(number)
