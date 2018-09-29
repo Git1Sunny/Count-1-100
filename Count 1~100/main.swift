@@ -15,4 +15,4 @@ for count1 in 1...100
     number += count1
 }
 
-print(number)
+print("从0～100的和为 \(number)")
